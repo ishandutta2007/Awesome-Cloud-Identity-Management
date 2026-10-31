@@ -71,7 +71,7 @@ The industry demonstrates **moderate fragmentation**:
 
 *Self-hosted open-source identity providers, brokers, and auth engines sorted in descending order by GitHub stargazers.*
 
-- **[Keycloak](https://github.com/keycloak/keycloak)** [![GitHub stars](https://img.shields.io/github/stars/keycloak/keycloak?style=social&color=white)](https://github.com/keycloak/keycloak/stargazers)
+- **[Keycloak](https://github.com/keycloak/keycloak)** [![GitHub_Stars](https://img.shields.io/github/stars/keycloak/keycloak?style=social&color=white)](https://github.com/keycloak/keycloak/stargazers)
 
   The most widely deployed open-source enterprise IAM platform, backed by Red Hat with the largest global community and integration catalog.
 - **Protocols & Features**: Full support for OAuth 2.0 / OpenID Connect (OIDC 1.0) Core, SAML 2.0, Kerberos, LDAP / Active Directory user federation, social login brokers, fine-grained role-based authorization services, administrative REST APIs, and SCIM 2.0 provider integration.
@@ -79,7 +79,7 @@ The industry demonstrates **moderate fragmentation**:
 - **Trade-offs**: Java runtime footprint and memory requirements are higher than Go-based equivalents; legacy administration UI can have a steep learning curve.
 - **Best For**: Large enterprises, government bodies, and regulated institutions requiring rock-solid reliability, broad third-party plugin support, and deep directory federation.
 
-- **[Authelia](https://github.com/authelia/authelia)** [![GitHub stars](https://img.shields.io/github/stars/authelia/authelia?style=social&color=white)](https://github.com/authelia/authelia/stargazers)
+- **[Authelia](https://github.com/authelia/authelia)** [![GitHub_Stars](https://img.shields.io/github/stars/authelia/authelia?style=social&color=white)](https://github.com/authelia/authelia/stargazers)
 
   Lightweight, high-performance authentication and authorization companion for reverse proxies and cloud gateways.
 - **Protocols & Features**: Companion web portal providing 2-factor authentication (TOTP, WebAuthn / FIDO2 security keys, Duo push notifications), OpenID Connect (OIDC) provider, forward-auth companion for Traefik, Nginx, Envoy, Caddy, and HAProxy.
@@ -87,7 +87,7 @@ The industry demonstrates **moderate fragmentation**:
 - **Trade-offs**: Purpose-built as a protective proxy companion and OIDC provider rather than a full multi-tenant enterprise identity governance suite.
 - **Best For**: DevOps engineers, homelabs, and cloud infrastructure teams seeking an ultra-fast, zero-overhead 2FA / SSO gateway protecting private services.
 
-- **[Authentik](https://github.com/goauthentik/authentik)** [![GitHub stars](https://img.shields.io/github/stars/goauthentik/authentik?style=social&color=white)](https://github.com/goauthentik/authentik/stargazers)
+- **[Authentik](https://github.com/goauthentik/authentik)** [![GitHub_Stars](https://img.shields.io/github/stars/goauthentik/authentik?style=social&color=white)](https://github.com/goauthentik/authentik/stargazers)
 
   Modern, flexible open-source identity provider and the community favorite for Keycloak migration.
 - **Protocols & Features**: OAuth2 / OIDC, SAML 2.0, LDAP outpost server, forward authentication proxy provider, SCIM 2.0 directory sync, and an unmatched stage-based visual flow engine enabling total customization of authentication and onboarding journeys.
@@ -95,7 +95,7 @@ The industry demonstrates **moderate fragmentation**:
 - **Trade-offs**: Python backend has a moderate memory footprint compared to pure Go engines; advanced enterprise multitenancy requires commercial tiers.
 - **Best For**: Engineering teams wanting modern UX, frictionless self-service user portals, and infinitely configurable visual authentication flows.
 
-- **[Ory Hydra](https://github.com/ory/hydra)** [![GitHub stars](https://img.shields.io/github/stars/ory/hydra?style=social&color=white)](https://github.com/ory/hydra/stargazers)
+- **[Ory Hydra](https://github.com/ory/hydra)** [![GitHub_Stars](https://img.shields.io/github/stars/ory/hydra?style=social&color=white)](https://github.com/ory/hydra/stargazers)
 
   Hardened, OpenID Foundation-certified OAuth 2.0 and OpenID Connect engine built for ultra-high throughput.
 - **Protocols & Features**: OpenID Certified® OAuth 2.0 and OIDC provider, headless architecture (BYO login and consent UI in any language), cryptographically signed JWT issuance, token introspection, and instant revocation at massive concurrency.
@@ -103,7 +103,7 @@ The industry demonstrates **moderate fragmentation**:
 - **Trade-offs**: Headless by design—does not include a built-in user management UI or user directory; pairs with Ory Kratos or external user stores.
 - **Best For**: High-throughput microservice architectures, fintech platforms, and API ecosystems requiring strict OpenID Connect compliance and sub-millisecond token issuance.
 
-- **[Zitadel](https://github.com/zitadel/zitadel)** [![GitHub stars](https://img.shields.io/github/stars/zitadel/zitadel?style=social&color=white)](https://github.com/zitadel/zitadel/stargazers)
+- **[Zitadel](https://github.com/zitadel/zitadel)** [![GitHub_Stars](https://img.shields.io/github/stars/zitadel/zitadel?style=social&color=white)](https://github.com/zitadel/zitadel/stargazers)
 
   Cloud-native, multi-tenant identity infrastructure built for modern B2B SaaS and Kubernetes environments.
 - **Protocols & Features**: OIDC, OAuth 2.0, SAML 2.0, Passkeys / WebAuthn, event-sourced architecture (audit trail built into every transaction), built-in organizations for seamless multi-tenancy, and machine-to-machine service accounts.
@@ -111,7 +111,7 @@ The industry demonstrates **moderate fragmentation**:
 - **Trade-offs**: Event-sourced DB schema requires CockroachDB or modern Postgres; smaller community ecosystem than Keycloak.
 - **Best For**: B2B SaaS engineering teams and Kubernetes platform operators needing clean multi-tenancy out of the box and rapid passkey authentication.
 
-- **[SuperTokens](https://github.com/supertokens/supertokens-core)** [![GitHub stars](https://img.shields.io/github/stars/supertokens/supertokens-core?style=social&color=white)](https://github.com/supertokens/supertokens-core/stargazers)
+- **[SuperTokens](https://github.com/supertokens/supertokens-core)** [![GitHub_Stars](https://img.shields.io/github/stars/supertokens/supertokens-core?style=social&color=white)](https://github.com/supertokens/supertokens-core/stargazers)
 
   Developer-first, modular open-source alternative to Auth0 and Firebase Auth with pre-built UI components.
 - **Protocols & Features**: Secure session management with automatic rotating refresh tokens, passwordless authentication (magic links, SMS OTP), social login connectors, user roles / permissions (RBAC), and multi-factor authentication (MFA).
@@ -119,7 +119,7 @@ The industry demonstrates **moderate fragmentation**:
 - **Trade-offs**: Focuses on application-level CIAM (customer identity) rather than enterprise workforce desktop SSO or LDAP directory services.
 - **Best For**: Full-stack application developers needing customizable drop-in authentication components, secure cookie-based session management, and self-hosted data ownership.
 
-- **[Logto](https://github.com/logto-io/logto)** [![GitHub stars](https://img.shields.io/github/stars/logto-io/logto?style=social&color=white)](https://github.com/logto-io/logto/stargazers)
+- **[Logto](https://github.com/logto-io/logto)** [![GitHub_Stars](https://img.shields.io/github/stars/logto-io/logto?style=social&color=white)](https://github.com/logto-io/logto/stargazers)
 
   Modern Auth0 alternative designed for B2B SaaS, mobile apps, and multi-tenant architectures.
 - **Protocols & Features**: OIDC / OAuth 2.0 provider, enterprise SSO (SAML/OIDC connectors for Okta, Google Workspace, Entra ID), WebAuthn passkeys, organization-level RBAC for multi-tenant applications, and automated email/SMS verification.
@@ -127,7 +127,7 @@ The industry demonstrates **moderate fragmentation**:
 - **Trade-offs**: Focuses on modern web/app CIAM and multi-tenant B2B apps rather than legacy enterprise on-premise Active Directory federation.
 - **Best For**: Modern software engineering teams building consumer applications or multi-tenant B2B SaaS platforms wanting a slick Auth0 substitute.
 
-- **[Casdoor](https://github.com/casdoor/casdoor)** [![GitHub stars](https://img.shields.io/github/stars/casdoor/casdoor?style=social&color=white)](https://github.com/casdoor/casdoor/stargazers)
+- **[Casdoor](https://github.com/casdoor/casdoor)** [![GitHub_Stars](https://img.shields.io/github/stars/casdoor/casdoor?style=social&color=white)](https://github.com/casdoor/casdoor/stargazers)
 
   AI-native Identity and Access Management (IAM) / SSO platform with web UI and native Model Context Protocol (MCP) server.
 - **Protocols & Features**: OAuth 2.0 / OIDC provider, SAML 2.0 IdP, built-in CAS, LDAP, and RADIUS servers, WebAuthn / Passkeys, Face ID biometric auth, **MCP server and OAuth 2.1 for MCP built-in** (native support for AI agents), SCIM 2.0 server, syncers for Keycloak, Okta, Entra ID, and 70+ built-in social/enterprise providers.
@@ -135,7 +135,7 @@ The industry demonstrates **moderate fragmentation**:
 - **Trade-offs**: Rapid development cycle means docs can occasionally lag bleeding-edge features; smaller community footprint than Keycloak.
 - **Best For**: Engineering teams wanting broadest protocol support in a single Go binary—especially those implementing AI agents via Model Context Protocol (MCP) or needing CAS/LDAP/RADIUS without plugins.
 
-- **[Ory Kratos](https://github.com/ory/kratos)** [![GitHub stars](https://img.shields.io/github/stars/ory/kratos?style=social&color=white)](https://github.com/ory/kratos/stargazers)
+- **[Ory Kratos](https://github.com/ory/kratos)** [![GitHub_Stars](https://img.shields.io/github/stars/ory/kratos?style=social&color=white)](https://github.com/ory/kratos/stargazers)
 
   Cloud-native, headless user management and identity system providing clean APIs for user lifecycle.
 - **Protocols & Features**: Headless identity lifecycle (self-service registration, login, profile management, password recovery, verification), multi-factor authentication (TOTP, WebAuthn), social sign-in, and customizable JSON Schema identity definitions.
@@ -143,7 +143,7 @@ The industry demonstrates **moderate fragmentation**:
 - **Trade-offs**: Purely headless—requires teams to build or embed custom UI using Ory Elements or their own frontend framework.
 - **Best For**: Product teams building custom, branded user authentication flows that demand full UI freedom with rock-solid security guarantees.
 
-- **[Dex IdP](https://github.com/dexidp/dex)** [![GitHub stars](https://img.shields.io/github/stars/dexidp/dex?style=social&color=white)](https://github.com/dexidp/dex/stargazers)
+- **[Dex IdP](https://github.com/dexidp/dex)** [![GitHub_Stars](https://img.shields.io/github/stars/dexidp/dex?style=social&color=white)](https://github.com/dexidp/dex/stargazers)
 
   Federated OpenID Connect (OIDC) identity broker and gateway for Kubernetes and cloud platforms.
 - **Protocols & Features**: Acts as an identity broker, delegating authentication to upstream providers (LDAP, SAML, GitHub, Google, Microsoft, GitLab) and emitting standard OIDC tokens for downstream consumers (Kubernetes API server, ArgoCD, Grafana).
@@ -151,7 +151,7 @@ The industry demonstrates **moderate fragmentation**:
 - **Trade-offs**: Does not manage user credentials or maintain internal user directories—strictly acts as a federation proxy.
 - **Best For**: Infrastructure and platform engineering teams configuring cluster-wide SSO for Kubernetes, CI/CD tools, and internal infrastructure dashboards.
 
-- **[HashiCorp Boundary](https://github.com/hashicorp/boundary)** [![GitHub stars](https://img.shields.io/github/stars/hashicorp/boundary?style=social&color=white)](https://github.com/hashicorp/boundary/stargazers)
+- **[HashiCorp Boundary](https://github.com/hashicorp/boundary)** [![GitHub_Stars](https://img.shields.io/github/stars/hashicorp/boundary?style=social&color=white)](https://github.com/hashicorp/boundary/stargazers)
 
   Identity-based secure remote access and privileged session management without managing private network VPNs.
 - **Protocols & Features**: Dynamic credential injection, identity-based TCP session brokering, OIDC identity integration, automated discovery of targets across multi-cloud environments, and session auditing.
@@ -159,7 +159,7 @@ The industry demonstrates **moderate fragmentation**:
 - **Trade-offs**: BSL licensing limits certain managed service hosting models; complements rather than replaces an identity provider (IdP).
 - **Best For**: Securing SSH, Kubernetes, and database access for cloud operations and engineering teams using identity instead of IP whitelists or bastion hosts.
 
-- **[Janssen Project](https://github.com/JanssenProject/jans)** [![GitHub stars](https://img.shields.io/github/stars/JanssenProject/jans?style=social&color=white)](https://github.com/JanssenProject/jans/stargazers)
+- **[Janssen Project](https://github.com/JanssenProject/jans)** [![GitHub_Stars](https://img.shields.io/github/stars/JanssenProject/jans?style=social&color=white)](https://github.com/JanssenProject/jans/stargazers)
 
   Linux Foundation-governed enterprise IAM and OpenID certified platform recognized as a Digital Public Good.
 - **Protocols & Features**: Jans Auth Server (OpenID Certified® OAuth 2.0 / OIDC / FIDO2 / UMA 2.0), Agama low-code authentication orchestration DSL, Jans SCIM directory services, and Jans Cedarling (Rust/WASM policy decision point).
@@ -167,7 +167,7 @@ The industry demonstrates **moderate fragmentation**:
 - **Trade-offs**: High architecture complexity; geared for government, telecommunications, and hyperscale environments rather than quick SMB setups.
 - **Best For**: Public sector organizations, national identity systems, and regulated enterprises demanding Linux Foundation governance and strict open-standard verification.
 
-- **[Apache Syncope](https://github.com/apache/syncope)** [![GitHub stars](https://img.shields.io/github/stars/apache/syncope?style=social&color=white)](https://github.com/apache/syncope/stargazers)
+- **[Apache Syncope](https://github.com/apache/syncope)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/syncope?style=social&color=white)](https://github.com/apache/syncope/stargazers)
 
   The top-level Apache Foundation solution for Identity Governance and Administration (IGA) and provisioning.
 - **Protocols & Features**: Identity lifecycle management, automated identity provisioning and deprovisioning to external systems via ConnId connectors, role and entitlement management, workflow-driven approvals (Flowable engine), and reporting.
@@ -219,7 +219,7 @@ Contributions are very welcome! If you know of an outstanding open-source identi
 
 1. 🍴 **Fork the repository** to your GitHub account.
 2. 🌿 **Create a new branch** (`git checkout -b feature/add-new-identity-tool`).
-3. ✍️ **Add or edit entries in `README.md`** following the established format (ensure links, badges, star counts, and objective descriptions are verified).
+3. ✍️ **Add or edit entries in `README.md`** following the established format (ensure links, badges, Stars_Counts, and objective descriptions are verified).
 4. 💾 **Commit your changes** (`git commit -m 'Add ToolName to Open-Source IAM section'`).
 5. 🚀 **Push to your branch** (`git push origin feature/add-new-identity-tool`).
 6. 📬 **Submit a Pull Request** with a concise explanation of your additions.
