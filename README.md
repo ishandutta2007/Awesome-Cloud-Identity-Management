@@ -1,164 +1,252 @@
-# Awesome-Cloud-Identity-Management
+<div align="center">
 
-# Awesome-Cloud-Identity-Management
+<a href="https://github.com/ishandutta2007/Awesome-Cloud-Identity-Management">
+  <img src="assets/banner.svg" alt="Awesome Cloud Identity Management Banner" width="100%" />
+</a>
 
-**Top Cloud Identity Management (Opensource) 🌟 Star if you like it! 🌟**
+<br/><br/>
 
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a><a href="https://github.com/ishandutta2007/Awesome-Cloud-Identity-Management/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Cloud-Identity-Management?style=for-the-badge&logo=apachespark&color=f59e0b" alt="Stars"/></a><a href="https://github.com/ishandutta2007/Awesome-Cloud-Identity-Management/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Cloud-Identity-Management?style=for-the-badge&color=3b82f6" alt="Forks"/></a><a href="https://github.com/ishandutta2007/Awesome-Cloud-Identity-Management/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Cloud-Identity-Management?style=for-the-badge&color=10b981" alt="Issues"/></a><a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg?style=for-the-badge" alt="License"/></a><a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
+<br/><br/>
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**
+# 🛡️ Awesome Cloud Identity Management (IAM) 🚀
 
-*Focused on SSO, MFA, Identity Governance, Passwordless Authentication & Self-Hosted IAM*
+**A curated, production-tested directory of enterprise SaaS identity platforms, Zero Trust security frameworks, and self-hosted open-source IAM solutions.**
 
-**Last updated: October 2026**
+*Single Sign-On (SSO) 🔑 • Adaptive Multi-Factor Authentication (MFA) 🔐 • Passkeys & FIDO2 🛡️ • Identity Governance & Administration (IGA) 📊 • SCIM Directory Provisioning 🔄 • Model Context Protocol (MCP) & AI Agent Auth 🤖*
 
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/ishandutta2007/Awesome-Cloud-Identity-Management/pulls)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square)](https://github.com/ishandutta2007/Awesome-Cloud-Identity-Management/graphs/commit-activity)
+[![Audit](https://img.shields.io/badge/Audited-October_2026-blueviolet.svg?style=flat-square)](https://github.com/ishandutta2007/Awesome-Cloud-Identity-Management)
 
+</div>
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Cloud Identity Management**. These tools enable organizations to authenticate users, enforce access policies, manage identities across applications, and govern entitlements—from fully managed enterprise IAM platforms with AI-driven risk scoring to self-hosted identity providers that give teams complete control over their user directory and authentication flows.
+---
 
+## 📑 Table of Contents 🎯
 
+- [🌐 Sector Overview & Market Dynamics 📈](#-sector-overview--market-dynamics-)
+- [☁️ Enterprise SaaS & Hosted Platforms 🏢](#️-enterprise-saas--hosted-platforms-)
+- [🔓 Top Open-Source Identity & Access Management Projects ⭐](#-top-open-source-identity--access-management-projects-)
+- [🏛️ Additional Notable Open-Source Solutions 🧩](#️-additional-notable-open-source-solutions-)
+- [💡 Architectural Comparison & Decision Matrix 🧠](#-architectural-comparison--decision-matrix-)
+- [📈 Star History 📊](#-star-history-)
+- [🤝 How to Contribute 🛠️](#-how-to-contribute-️)
+- [💖 Support & Sponsorship ☕](#-support--sponsorship-)
+- [⚖️ Disclaimer & Compliance 📜](#️-disclaimer--compliance-)
 
-**Examples** include Microsoft Entra ID, Okta, Ping Identity, CyberArk Identity, OneLogin, Auth0, JumpCloud, ForgeRock, and Beyond Identity (the category leaders in commercial space).
+---
 
+## 🌐 Sector Overview & Market Dynamics 📈
 
+The global Identity and Access Management (IAM) and Cloud Identity market is projected at **$24.3B – $27.5B in 2026** (with pure-play cloud IAM software representing ~$10.9B – $13.5B), growing at a compound annual growth rate (CAGR) of 14%–16%. This expansion is propelled by mandatory Zero Trust compliance, distributed remote workforces, automated machine-to-machine workload authentication, and the rapid adoption of AI agents. 
 
-**Open-source emphasis**: This section is expanded with every relevant project for self-hosted IAM, SSO, and open identity infrastructure. **Critical note**: The open-source IAM landscape is exceptionally mature—**Keycloak** remains the most widely deployed, but **Casdoor** has emerged as the most feature-complete modern alternative with built-in MCP server and AI-agent support, while **Zitadel** and **Authentik** offer cloud-native and community-favorite options respectively. No open-source project matches Okta's or Microsoft Entra's breadth of pre-built application integrations and governance features out of the box, but for core authentication and SSO, the open-source options are production-proven at scale.
+The industry demonstrates **moderate fragmentation**:
+- **Top-Tier Enterprise Consolidation:** A concentrated cohort of hyper-scalers and established IAM platforms (Microsoft Entra ID, Okta, CyberArk) captures high-volume enterprise workforce agreements through bundled workplace ecosystems and extensive pre-integrated application catalogs.
+- **Active Sub-Domain Fragmentation:** Specialized sectors—including developer Customer IAM (CIAM), hardware-bound passwordless authentication, decentralized identity, and Identity Threat Detection & Response (ITDR)—maintain an agile, innovative landscape where specialized SaaS and self-hosted open-source alternatives thrive.
 
+---
 
+## ☁️ Enterprise SaaS & Hosted Platforms 🏢
 
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
+*Commercial SaaS platforms sorted in descending order by company valuation / market capitalization.*
 
-
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-## Sector Overview & Market Dynamics
-
-The global Identity and Access Management (IAM) and Cloud Identity market is estimated at **.3B – .5B in 2026** (with pure-play cloud IAM accounting for ~.9B – .5B), expanding at a CAGR of 14%–16% driven by Zero Trust mandates, machine identity expansion, and cloud migrations. The market is **moderately fragmented**: while a top-heavy cohort of cloud hyper-scalers and established enterprise giants (Microsoft, Okta, CyberArk) commands major enterprise market share, rapid innovation in specialized sub-domains—such as customer identity (CIAM), phishing-resistant passwordless auth, identity threat detection (ITDR), and non-human identity governance—sustains a vibrant, fragmented long tail of specialized vendors.
-
-## SaaS/Hosted Platforms
-
-| Platform | Valuation / Company Size | Pricing (Starting Tier) | Free Tier / Trial Limits | Key Capabilities & Best For |
+| 🏢 Platform | 💰 Valuation / Company Size | 🏷️ Starting Pricing | 🎁 Free Tier / Trial Limits | ⚡ Key Capabilities & Best For |
 | :--- | :--- | :--- | :--- | :--- |
-| **[Microsoft Entra ID](https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-id)** | **.1+ Trillion** (Market Cap) | **.00/user/mo** (P1 standalone; also bundled in M365 Business Premium / E3); P2 at .00/user/mo | **Free plan forever** (capped at 50,000 directory objects without custom domain, 300,000 with verified domain; core directory & SSO included, lacks Conditional Access/PIM) | Enterprise directory, SSO, adaptive MFA, Conditional Access, and deep native Microsoft 365 / Azure integration. Best for Microsoft-centric organizations. |
-| **[Atlassian Identity / Guard](https://www.atlassian.com/)** | **~ Billion** (Market Cap) | **.00/user/mo** (Atlassian Guard Standard for 11–250 users; flat /mo for 1–10 users; Guard Premium adds ~/user/mo) | **30-day free trial** (unlimited features across connected Atlassian Cloud sites; standard Guard is free for Cloud Enterprise subscribers) | Centralized identity governance, user provisioning (SCIM), SAML SSO, and data loss prevention across Atlassian Cloud (Jira, Confluence). |
-| **[Okta](https://www.okta.com/)** | **~ Billion** (Market Cap; ~.6B+ ARR) | **.00/user/mo** (Workforce Starter Suite billed annually; ,500 annual contract minimum; higher suites at –/user/mo) | **30-day free trial** (Workforce trial limited to 10 active test users, 1 admin account, capped workflows/integrations; developer account offers 7,500 monthly active users) | Vendor-neutral enterprise cloud identity, pre-built app catalog (7,000+ integrations), adaptive MFA, and lifecycle management. |
-| **[CyberArk Identity](https://www.cyberark.com/)** | **~.6 Billion** (Market Cap; ~+ ARR) | **.00/user/mo** (SSO/MFA starting workforce tier, annual contract with enterprise minimum commitments) | **14-day free trial** (access to interactive cloud sandbox tenant and core identity workflows upon request/lab access) | Identity security platform combining SSO, adaptive multi-factor authentication, and native Privileged Access Management (PAM) threat detection. |
-| **[OneLogin](https://www.onelogin.com/)** *(One Identity)* | **.4 Billion** (Quest Software parent valuation; ~+ ARR) | **.00/user/mo** (Starter plan billed annually; Advanced at /user/mo, Professional at /user/mo) | **30-day free trial** (full access to enterprise directory integration, single sign-on catalog, and smart MFA evaluation) | Cloud IAM with SmartFactor authentication, unified directory integration, and self-service password reset for mid-market and enterprise organizations. |
-| **[Ping Identity](https://www.pingidentity.com/)** | **.8 Billion** (Acquisition valuation by Thoma Bravo; combined with ForgeRock) | **.00/user/mo** (PingOne for Workforce, 5,000-user enterprise contract minimum; PingOne for Customers starts at ~,000/yr) | **30-day free trial** (PingOne cloud platform evaluation sandbox with SSO, MFA, orchestration, and directory capabilities) | Hybrid & multi-cloud enterprise workforce and customer IAM, AI-driven fraud risk engine, and decentralized identity governance. |
-| **[JumpCloud](https://jumpcloud.com/)** | **~.6 Billion** (Private Valuation; ~ ARR) | **.00/user/mo** (Device Management or SSO package billed annually, /mo monthly; Core Device Identity Management at /user/mo) | **30-day free trial** (unrestricted full platform access with all premium features and 24/7 support for evaluation; legacy free tier up to 10 users/devices was grandfathered Feb 2024) | Cloud directory platform unifying cross-OS device management (MDM for Mac, Windows, Linux) with single sign-on, RADIUS, and password management. |
-| **[ForgeRock](https://www.forgerock.com/)** *(Ping Identity)* | **.3 Billion** (Acquisition valuation by Thoma Bravo) | **.00 – .00/user/mo** (Workforce enterprise bundle via Ping Identity; customer IAM tiers scaled by identity volume from ~+/yr) | **30-day free trial** (Ping Identity / ForgeRock unified cloud trial environment with identity orchestration and governance modules) | High-scale digital identity, AI-powered identity governance and administration (IGA), autonomous access, and fine-grained authorization. |
-| **[Beyond Identity](https://www.beyondidentity.com/)** | **.1 Billion** (Series C Unicorn Valuation; ~ ARR) | **.00/user/mo** (Secure Workforce plan; customer-facing passwordless authentication starts at .016/MAU) | **Free plan forever** (Free Passwordless tier for workforce & customer authentication with unlimited users; basic phishing-resistant FIDO2/passkey authentication) | Cryptographic, device-bound passwordless identity eliminating passwords and phishing risks via hardware TPM/Secure Enclave verification. |
-| **[Auth0](https://auth0.com/)** *(Okta)* | Part of **Okta ( Market Cap)**; acquired for **.5 Billion** | **.00/month** (B2C Essentials plan up to 500 MAUs; B2B Professional starts at /mo for 500 MAUs; enterprise custom) | **Free plan forever** (up to 25,000 Monthly Active Users (MAUs), unlimited social connections, custom domain, and basic attack protection) | Developer-first Customer Identity and Access Management (CIAM) platform offering drop-in authentication, universal login, social auth, and user management APIs. |
+| **[Microsoft Entra ID](https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-id)** | **$3.1+ Trillion** (Market Cap) | **$7.00/user/mo** (P1 standalone; also bundled in M365 Business Premium / E3); P2 at $10.00/user/mo | **Free plan forever** (capped at 50,000 directory objects without custom domain, 300,000 with verified domain; core directory & SSO included, lacks Conditional Access/PIM) | Enterprise directory, SSO, adaptive MFA, Conditional Access, and deep native Microsoft 365 / Azure integration. Best for Microsoft-centric organizations. |
+| **[Atlassian Identity / Guard](https://www.atlassian.com/)** | **~$52 Billion** (Market Cap) | **$4.00/user/mo** (Atlassian Guard Standard for 11–250 users; flat $30/mo for 1–10 users; Guard Premium adds ~$8/user/mo) | **30-day free trial** (unlimited features across connected Atlassian Cloud sites; standard Guard is free for Cloud Enterprise subscribers) | Centralized identity governance, user provisioning (SCIM), SAML SSO, and data loss prevention across Atlassian Cloud (Jira, Confluence). |
+| **[Okta](https://www.okta.com/)** | **~$37 Billion** (Market Cap; ~$2.6B+ ARR) | **$6.00/user/mo** (Workforce Starter Suite billed annually; $1,500 annual contract minimum; higher suites at $14–$17/user/mo) | **30-day free trial** (Workforce trial limited to 10 active test users, 1 admin account, capped workflows/integrations; developer account offers 7,500 monthly active users) | Vendor-neutral enterprise cloud identity, pre-built app catalog (7,000+ integrations), adaptive MFA, and lifecycle management. |
+| **[CyberArk Identity](https://www.cyberark.com/)** | **~$20.6 Billion** (Market Cap; ~$900M+ ARR) | **$2.00/user/mo** (SSO/MFA starting workforce tier, annual contract with enterprise minimum commitments) | **14-day free trial** (access to interactive cloud sandbox tenant and core identity workflows upon request/lab access) | Identity security platform combining SSO, adaptive multi-factor authentication, and native Privileged Access Management (PAM) threat detection. |
+| **[OneLogin](https://www.onelogin.com/)** *(One Identity)* | **$5.4 Billion** (Quest Software parent valuation; ~$150M+ ARR) | **$2.00/user/mo** (Starter plan billed annually; Advanced at $4/user/mo, Professional at $8/user/mo) | **30-day free trial** (full access to enterprise directory integration, single sign-on catalog, and smart MFA evaluation) | Cloud IAM with SmartFactor authentication, unified directory integration, and self-service password reset for mid-market and enterprise organizations. |
+| **[Ping Identity](https://www.pingidentity.com/)** | **$2.8 Billion** (Acquisition valuation by Thoma Bravo; combined with ForgeRock) | **$3.00/user/mo** (PingOne for Workforce, 5,000-user enterprise contract minimum; PingOne for Customers starts at ~$35,000/yr) | **30-day free trial** (PingOne cloud platform evaluation sandbox with SSO, MFA, orchestration, and directory capabilities) | Hybrid & multi-cloud enterprise workforce and customer IAM, AI-driven fraud risk engine, and decentralized identity governance. |
+| **[JumpCloud](https://jumpcloud.com/)** | **~$2.6 Billion** (Private Valuation; ~$200M ARR) | **$9.00/user/mo** (Device Management or SSO package billed annually, $11/mo monthly; Core Device Identity Management at $13/user/mo) | **30-day free trial** (unrestricted full platform access with all premium features and 24/7 support for evaluation; legacy free tier up to 10 users/devices was grandfathered Feb 2024) | Cloud directory platform unifying cross-OS device management (MDM for Mac, Windows, Linux) with single sign-on, RADIUS, and password management. |
+| **[ForgeRock](https://www.forgerock.com/)** *(Ping Identity)* | **$2.3 Billion** (Acquisition valuation by Thoma Bravo) | **$3.00 – $5.00/user/mo** (Workforce enterprise bundle via Ping Identity; customer IAM tiers scaled by identity volume from ~$35K+/yr) | **30-day free trial** (Ping Identity / ForgeRock unified cloud trial environment with identity orchestration and governance modules) | High-scale digital identity, AI-powered identity governance and administration (IGA), autonomous access, and fine-grained authorization. |
+| **[Beyond Identity](https://www.beyondidentity.com/)** | **$1.1 Billion** (Series C Unicorn Valuation; ~$38M ARR) | **$6.00/user/mo** (Secure Workforce plan; customer-facing passwordless authentication starts at $0.016/MAU) | **Free plan forever** (Free Passwordless tier for workforce & customer authentication with unlimited users; basic phishing-resistant FIDO2/passkey authentication) | Cryptographic, device-bound passwordless identity eliminating passwords and phishing risks via hardware TPM/Secure Enclave verification. |
+| **[Auth0](https://auth0.com/)** *(Okta)* | Part of **Okta ($37B Market Cap)**; acquired for **$6.5 Billion** | **$35.00/month** (B2C Essentials plan up to 500 MAUs; B2B Professional starts at $240/mo for 500 MAUs; enterprise custom) | **Free plan forever** (up to 25,000 Monthly Active Users (MAUs), unlimited social connections, custom domain, and basic attack protection) | Developer-first Customer Identity and Access Management (CIAM) platform offering drop-in authentication, universal login, social auth, and user management APIs. |
 
-## Open-Source GitHub Projects
+---
 
+## 🔓 Top Open-Source Identity & Access Management Projects ⭐
 
+*Self-hosted open-source identity providers, brokers, and auth engines sorted in descending order by GitHub stargazers.*
 
-- **[Casdoor](https://github.com/casdoor/casdoor)**
+- **[Keycloak](https://github.com/keycloak/keycloak)** [![GitHub stars](https://img.shields.io/github/stars/keycloak/keycloak?style=social&color=white)](https://github.com/keycloak/keycloak/stargazers)
 
-  **AI-native Identity and Access Management (IAM) / SSO platform with web UI** (Apache-2.0) — **the most feature-complete modern open-source IAM platform** as of October 2026, with built-in support for protocols that others require extensions to achieve . **Features**: **OAuth 2.0 / OIDC provider**, **SAML 2.0 IdP**, **CAS server** (built-in), **LDAP server** (built-in), **RADIUS server** (built-in), **WebAuthn / passkeys**, **TOTP / MFA**, **Face ID** biometric sign-in . **MCP server and OAuth 2.1 for MCP built in**—the only self-hosted IdP with native Model Context Protocol support, enabling AI agents to authenticate and access resources . **SCIM 2.0 server** for receiving users from Entra ID/Okta; **syncers for Keycloak, Okta, Entra ID, Active Directory, Google Workspace, AWS IAM**, and more . **Casbin policy engine** for ACL, RBAC, ABAC, and custom authorization models . **70+ built-in social/enterprise providers** including WeChat, DingTalk, Lark, and Alipay . **Multi-tenancy** via Organizations with isolated users, applications, and branding. **Everything editable in the UI**—no file redeployment needed. **Single Go binary** plus database; no JVM, no operator, no cluster required . **Tech stack**: Go (backend), React (UI). **Deploy**: Docker all-in-one for evaluation; Docker Compose with MySQL for production; Casdoor Cloud for managed . **Trade-off**: **Smaller community than Keycloak**—fewer third-party tutorials and Stack Overflow answers. Documentation is improving but less comprehensive than Keycloak's ecosystem . **Best for**: teams wanting the broadest protocol support (including MCP for AI agents) in a modern, UI-first self-hosted IAM platform—especially those building AI-integrated applications or needing built-in CAS/LDAP/RADIUS without extensions.
+  The most widely deployed open-source enterprise IAM platform, backed by Red Hat with the largest global community and integration catalog.
+- **Protocols & Features**: Full support for OAuth 2.0 / OpenID Connect (OIDC 1.0) Core, SAML 2.0, Kerberos, LDAP / Active Directory user federation, social login brokers, fine-grained role-based authorization services, administrative REST APIs, and SCIM 2.0 provider integration.
+- **Tech Stack & Deployment**: Java (Quarkus-powered runtime), optimized multi-arch container images, official Kubernetes Operator, and Helm charts.
+- **Trade-offs**: Java runtime footprint and memory requirements are higher than Go-based equivalents; legacy administration UI can have a steep learning curve.
+- **Best For**: Large enterprises, government bodies, and regulated institutions requiring rock-solid reliability, broad third-party plugin support, and deep directory federation.
 
+- **[Authelia](https://github.com/authelia/authelia)** [![GitHub stars](https://img.shields.io/github/stars/authelia/authelia?style=social&color=white)](https://github.com/authelia/authelia/stargazers)
 
+  Lightweight, high-performance authentication and authorization companion for reverse proxies and cloud gateways.
+- **Protocols & Features**: Companion web portal providing 2-factor authentication (TOTP, WebAuthn / FIDO2 security keys, Duo push notifications), OpenID Connect (OIDC) provider, forward-auth companion for Traefik, Nginx, Envoy, Caddy, and HAProxy.
+- **Tech Stack & Deployment**: Go and TypeScript; single ultra-lightweight binary or lean Docker container with minimal resource overhead.
+- **Trade-offs**: Purpose-built as a protective proxy companion and OIDC provider rather than a full multi-tenant enterprise identity governance suite.
+- **Best For**: DevOps engineers, homelabs, and cloud infrastructure teams seeking an ultra-fast, zero-overhead 2FA / SSO gateway protecting private services.
 
-- **[Keycloak](https://github.com/keycloak/keycloak)**
+- **[Authentik](https://github.com/goauthentik/authentik)** [![GitHub stars](https://img.shields.io/github/stars/goauthentik/authentik?style=social&color=white)](https://github.com/goauthentik/authentik/stargazers)
 
-  **Open Source Identity and Access Management** (Apache-2.0) — **the most widely deployed open-source IAM platform**, with the largest ecosystem and community. **Features**: OAuth 2.0/OIDC, SAML 2.0, LDAP/AD federation, social login (about a dozen built-in plus generic OIDC/SAML), user federation and live LDAP lookups, authentication flows with Java SPI extension points, realm import, and SCIM 2.0 server support (since 26.8) . **Tech stack**: Java (Quarkus). **Deploy**: Self-hosted (Operator for Kubernetes, Docker) or managed via Red Hat build. **Trade-off**: **Java overhead is real**—heavier footprint and slower startup than Go-based alternatives . **UI is clunky and user self-service is an afterthought**—the community recommends Authentik for better user experience . **Rated Merit in ISG's 2026 Buyers Guide** . **Best for**: organizations needing a proven, battle-tested IAM with the largest ecosystem—willing to accept Java overhead and a dated UI in exchange for maximum community support and third-party integrations.
+  Modern, flexible open-source identity provider and the community favorite for Keycloak migration.
+- **Protocols & Features**: OAuth2 / OIDC, SAML 2.0, LDAP outpost server, forward authentication proxy provider, SCIM 2.0 directory sync, and an unmatched stage-based visual flow engine enabling total customization of authentication and onboarding journeys.
+- **Tech Stack & Deployment**: Python (Django) core, Go outposts/reverse proxies, Vue.js admin and user portals; deployed via Docker Compose or Kubernetes Helm charts.
+- **Trade-offs**: Python backend has a moderate memory footprint compared to pure Go engines; advanced enterprise multitenancy requires commercial tiers.
+- **Best For**: Engineering teams wanting modern UX, frictionless self-service user portals, and infinitely configurable visual authentication flows.
 
+- **[Ory Hydra](https://github.com/ory/hydra)** [![GitHub stars](https://img.shields.io/github/stars/ory/hydra?style=social&color=white)](https://github.com/ory/hydra/stargazers)
 
+  Hardened, OpenID Foundation-certified OAuth 2.0 and OpenID Connect engine built for ultra-high throughput.
+- **Protocols & Features**: OpenID Certified® OAuth 2.0 and OIDC provider, headless architecture (BYO login and consent UI in any language), cryptographically signed JWT issuance, token introspection, and instant revocation at massive concurrency.
+- **Tech Stack & Deployment**: Go; stateless microservice connecting to PostgreSQL, MySQL, CockroachDB, or SQLite.
+- **Trade-offs**: Headless by design—does not include a built-in user management UI or user directory; pairs with Ory Kratos or external user stores.
+- **Best For**: High-throughput microservice architectures, fintech platforms, and API ecosystems requiring strict OpenID Connect compliance and sub-millisecond token issuance.
 
-- **[Zitadel](https://github.com/zitadel/zitadel)**
+- **[Zitadel](https://github.com/zitadel/zitadel)** [![GitHub stars](https://img.shields.io/github/stars/zitadel/zitadel?style=social&color=white)](https://github.com/zitadel/zitadel/stargazers)
 
-  **Cloud-native identity management platform** (AGPL-3.0) — **the most resource-efficient and Kubernetes-native open-source IAM**, written in Go for fast startup and low memory footprint . **Features**: OIDC, OAuth2, SAML 2.0; **multi-tenancy via Instances and Organizations**—clean isolation for external project members or freelancers as separate identity populations ; **self-service portal** for users to manage credentials and MFA; **API-first design** for extensibility without the Java ecosystem. **Tech stack**: Go, TypeScript (login UI), PostgreSQL. **Deploy**: Self-hosted (Helm chart, Kubernetes). **Trade-off**: **Newer and smaller community than Keycloak**—documentation is good but less comprehensive . **Best for**: small businesses and platform teams deploying in containerized/Kubernetes environments where resource efficiency matters—especially those managing external users or contractors as separate tenants.
+  Cloud-native, multi-tenant identity infrastructure built for modern B2B SaaS and Kubernetes environments.
+- **Protocols & Features**: OIDC, OAuth 2.0, SAML 2.0, Passkeys / WebAuthn, event-sourced architecture (audit trail built into every transaction), built-in organizations for seamless multi-tenancy, and machine-to-machine service accounts.
+- **Tech Stack & Deployment**: Go, CockroachDB / PostgreSQL, Next.js / TypeScript UI; instant cold starts and minimal memory consumption.
+- **Trade-offs**: Event-sourced DB schema requires CockroachDB or modern Postgres; smaller community ecosystem than Keycloak.
+- **Best For**: B2B SaaS engineering teams and Kubernetes platform operators needing clean multi-tenancy out of the box and rapid passkey authentication.
 
+- **[SuperTokens](https://github.com/supertokens/supertokens-core)** [![GitHub stars](https://img.shields.io/github/stars/supertokens/supertokens-core?style=social&color=white)](https://github.com/supertokens/supertokens-core/stargazers)
 
+  Developer-first, modular open-source alternative to Auth0 and Firebase Auth with pre-built UI components.
+- **Protocols & Features**: Secure session management with automatic rotating refresh tokens, passwordless authentication (magic links, SMS OTP), social login connectors, user roles / permissions (RBAC), and multi-factor authentication (MFA).
+- **Tech Stack & Deployment**: Java core service engine with SDKs across React, Next.js, Angular, Vue, Node.js, Python, Go, and mobile frameworks.
+- **Trade-offs**: Focuses on application-level CIAM (customer identity) rather than enterprise workforce desktop SSO or LDAP directory services.
+- **Best For**: Full-stack application developers needing customizable drop-in authentication components, secure cookie-based session management, and self-hosted data ownership.
 
-- **[Authentik](https://github.com/goauthentik/authentik)**
+- **[Logto](https://github.com/logto-io/logto)** [![GitHub stars](https://img.shields.io/github/stars/logto-io/logto?style=social&color=white)](https://github.com/logto-io/logto/stargazers)
 
-  **Modern open-source identity provider** (MIT core, enterprise features commercial) — **the community favorite for Keycloak migration**, with a clean modern UI and out-of-the-box user self-service portal . **Features**: SAML, OAuth2, OIDC; **most flexible sign-in flow engine** among the four major self-hosted IdPs—flows and stages edited in the admin interface ; **user-facing portal** for profile management, password reset, and MFA device configuration without admin intervention ; **proxy provider** for Traefik, Caddy, Nginx, and Envoy with headers set by outpost; **LDAP source** sync and password checks; **SCIM source** for receiving users. **Tech stack**: Python/Django and Go. **Deploy**: Self-hosted (Helm chart, Docker). **Trade-off**: **Not as lightweight as Zitadel**—Python/Django backend means heavier resource usage, though rarely a constraint for small business deployments . **Separate tenants are an alpha enterprise feature**—multi-tenancy is via Brands for branding, not full isolation . **Best for**: teams wanting a modern, clean IAM with excellent user self-service and flexible sign-in flows—especially those frustrated by Keycloak's UI and seeking a community-recommended alternative.
+  Modern Auth0 alternative designed for B2B SaaS, mobile apps, and multi-tenant architectures.
+- **Protocols & Features**: OIDC / OAuth 2.0 provider, enterprise SSO (SAML/OIDC connectors for Okta, Google Workspace, Entra ID), WebAuthn passkeys, organization-level RBAC for multi-tenant applications, and automated email/SMS verification.
+- **Tech Stack & Deployment**: Node.js, TypeScript, PostgreSQL; packaged as Docker images with complete Admin Console and end-user sign-in UI.
+- **Trade-offs**: Focuses on modern web/app CIAM and multi-tenant B2B apps rather than legacy enterprise on-premise Active Directory federation.
+- **Best For**: Modern software engineering teams building consumer applications or multi-tenant B2B SaaS platforms wanting a slick Auth0 substitute.
 
+- **[Casdoor](https://github.com/casdoor/casdoor)** [![GitHub stars](https://img.shields.io/github/stars/casdoor/casdoor?style=social&color=white)](https://github.com/casdoor/casdoor/stargazers)
 
+  AI-native Identity and Access Management (IAM) / SSO platform with web UI and native Model Context Protocol (MCP) server.
+- **Protocols & Features**: OAuth 2.0 / OIDC provider, SAML 2.0 IdP, built-in CAS, LDAP, and RADIUS servers, WebAuthn / Passkeys, Face ID biometric auth, **MCP server and OAuth 2.1 for MCP built-in** (native support for AI agents), SCIM 2.0 server, syncers for Keycloak, Okta, Entra ID, and 70+ built-in social/enterprise providers.
+- **Tech Stack & Deployment**: Go (backend), React (UI); single binary plus database (MySQL, PostgreSQL, CockroachDB, SQLite).
+- **Trade-offs**: Rapid development cycle means docs can occasionally lag bleeding-edge features; smaller community footprint than Keycloak.
+- **Best For**: Engineering teams wanting broadest protocol support in a single Go binary—especially those implementing AI agents via Model Context Protocol (MCP) or needing CAS/LDAP/RADIUS without plugins.
 
-- **[Ory (Kratos, Hydra, Keto, Oathkeeper, Polis)](https://github.com/ory)**
+- **[Ory Kratos](https://github.com/ory/kratos)** [![GitHub stars](https://img.shields.io/github/stars/ory/kratos?style=social&color=white)](https://github.com/ory/kratos/stargazers)
 
-  **Modular, cloud-native IAM ecosystem** (Apache-2.0) — **the most architecturally flexible open-source IAM**, with each service solving a distinct problem and working standalone or combined . **Components**: **Ory Kratos** (identities, credentials, sessions, self-service flows—passwords, social sign-in, OIDC, passkeys, MFA); **Ory Hydra** (OpenID Certified® OAuth 2.0 and OIDC provider—token issuance, delegation, stateless JWT); **Ory Keto** (fine-grained permissions—Google Zanzibar model, RBAC/ABAC); **Ory Oathkeeper** (identity and policy-aware zero-trust proxy); **Ory Polis** (SAML to OAuth 2.0 bridge, enterprise SSO) . **Headless architecture**—bring your own UI; **Ory Elements** component library for building custom login/registration/settings flows. **Tech stack**: Go (all services). **Deploy**: Self-hosted (Docker, Kubernetes Helm charts) or Ory Network (managed SaaS). **Trade-off**: **Modular means more assembly required**—you choose and integrate the components you need; not a single monolithic IdP. **Guaranteed CVE patching and SLAs require Ory Enterprise License** . **Best for**: developers and platform teams wanting maximum architectural flexibility—especially those building microservices or needing Zanzibar-style fine-grained permissions alongside authentication.
+  Cloud-native, headless user management and identity system providing clean APIs for user lifecycle.
+- **Protocols & Features**: Headless identity lifecycle (self-service registration, login, profile management, password recovery, verification), multi-factor authentication (TOTP, WebAuthn), social sign-in, and customizable JSON Schema identity definitions.
+- **Tech Stack & Deployment**: Go; zero-state binary connecting to relational databases (PostgreSQL, MySQL, CockroachDB, SQLite).
+- **Trade-offs**: Purely headless—requires teams to build or embed custom UI using Ory Elements or their own frontend framework.
+- **Best For**: Product teams building custom, branded user authentication flows that demand full UI freedom with rock-solid security guarantees.
 
+- **[Dex IdP](https://github.com/dexidp/dex)** [![GitHub stars](https://img.shields.io/github/stars/dexidp/dex?style=social&color=white)](https://github.com/dexidp/dex/stargazers)
 
+  Federated OpenID Connect (OIDC) identity broker and gateway for Kubernetes and cloud platforms.
+- **Protocols & Features**: Acts as an identity broker, delegating authentication to upstream providers (LDAP, SAML, GitHub, Google, Microsoft, GitLab) and emitting standard OIDC tokens for downstream consumers (Kubernetes API server, ArgoCD, Grafana).
+- **Tech Stack & Deployment**: Go; lightweight single binary, native Kubernetes deployment with CRDs or config maps.
+- **Trade-offs**: Does not manage user credentials or maintain internal user directories—strictly acts as a federation proxy.
+- **Best For**: Infrastructure and platform engineering teams configuring cluster-wide SSO for Kubernetes, CI/CD tools, and internal infrastructure dashboards.
 
-- **[Janssen Project](https://github.com/JanssenProject/jans)**
+- **[HashiCorp Boundary](https://github.com/hashicorp/boundary)** [![GitHub stars](https://img.shields.io/github/stars/hashicorp/boundary?style=social&color=white)](https://github.com/hashicorp/boundary/stargazers)
 
-  **Linux Foundation-governed open-source IAM** (Apache-2.0) — **the most standards-complete and governance-backed open-source IAM**, recognized as a **Digital Public Good** by the Digital Public Goods Alliance (18/18 checks met) . **Features**: **Jans Auth Server** (certified OpenID Connect Provider, OAuth 2.0 server); **Agama** low-code identity orchestration DSL for authentication journeys; **Jans FIDO** for passkeys and FIDO2; **Jans SCIM** for user management; **Jans Cedarling**—embeddable Rust-based policy decision point with WASM, iOS, Android, and Python bindings; **Jans Lock** for enterprise authorization with centralized audit logs . **Standards**: OAuth 2.0, certified OIDC, SAML 2.0, FIDO2, SCIM, UMA 2.0 . **Tech stack**: Java. **Deploy**: Self-hosted (Helm for Kubernetes, VM packages for Ubuntu/SUSE/Red Hat). **Trade-off**: **Complex deployment**—requires Kubernetes or VM infrastructure; not a simple single-binary install. **Commercial distributions** (Gluu Flex, Gluu Solo) offer support and enterprise features . **Best for**: public sector, regulated industries, and organizations needing a Digital Public Good-certified IAM with Linux Foundation governance and the most complete standards coverage—especially those building national-scale identity infrastructure.
+  Identity-based secure remote access and privileged session management without managing private network VPNs.
+- **Protocols & Features**: Dynamic credential injection, identity-based TCP session brokering, OIDC identity integration, automated discovery of targets across multi-cloud environments, and session auditing.
+- **Tech Stack & Deployment**: Go; multi-node controller and worker architecture backed by PostgreSQL.
+- **Trade-offs**: BSL licensing limits certain managed service hosting models; complements rather than replaces an identity provider (IdP).
+- **Best For**: Securing SSH, Kubernetes, and database access for cloud operations and engineering teams using identity instead of IP whitelists or bastion hosts.
 
+- **[Janssen Project](https://github.com/JanssenProject/jans)** [![GitHub stars](https://img.shields.io/github/stars/JanssenProject/jans?style=social&color=white)](https://github.com/JanssenProject/jans/stargazers)
 
+  Linux Foundation-governed enterprise IAM and OpenID certified platform recognized as a Digital Public Good.
+- **Protocols & Features**: Jans Auth Server (OpenID Certified® OAuth 2.0 / OIDC / FIDO2 / UMA 2.0), Agama low-code authentication orchestration DSL, Jans SCIM directory services, and Jans Cedarling (Rust/WASM policy decision point).
+- **Tech Stack & Deployment**: Java, Python, Rust; highly scalable Kubernetes deployment architecture.
+- **Trade-offs**: High architecture complexity; geared for government, telecommunications, and hyperscale environments rather than quick SMB setups.
+- **Best For**: Public sector organizations, national identity systems, and regulated enterprises demanding Linux Foundation governance and strict open-standard verification.
 
-### Additional Strong Open-Source Options
+- **[Apache Syncope](https://github.com/apache/syncope)** [![GitHub stars](https://img.shields.io/github/stars/apache/syncope?style=social&color=white)](https://github.com/apache/syncope/stargazers)
 
-
-
-- **Shibboleth Consortium** — Web-based SSO and federated identity (open source). **Note**: **Higher education and research focus**—excels at inter-organizational federation and resource sharing; not a general-purpose workforce IAM . **Best for**: universities and research institutions needing federated authentication across organizations.
-
-- **FreeIPA + Keycloak** — Established self-hosted stack (open source). FreeIPA for directory/Kerberos/SSH keys/certificates; Keycloak for SSO on top. **Note**: **Heavier and more complex**—best when you need the full AD-equivalent feature set (Kerberos, certificate management, HBAC, sudo rules) . **Best for**: organizations needing complete directory services beyond SSO.
-
-
-
-**Frameworks for building custom systems**: Combine **Casdoor** for broad protocol support (including MCP for AI agents) with **Zitadel** for Kubernetes-native multi-tenancy, **Authentik** for user self-service and flexible flows, and **Ory Kratos + Keto** for modular identity and Zanzibar-style permissions—creating an IAM stack matched to each team's deployment environment and feature priorities. **None of these match Okta's or Entra's pre-built application catalog**, but for core authentication, SSO, and governance, the open-source options are production-proven at scale.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, license (for open-source), and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Identity management platforms handling credentials and personal data must comply with data protection regulations (GDPR, CCPA, etc.) and implement appropriate encryption, MFA, and audit logging.
-
-- **The "enterprise IAM platform" vs. "developer-friendly CIAM" vs. "modular IAM ecosystem" vs. "federated SSO" distinction is critical.** **Microsoft Entra ID, Okta, Ping Identity, CyberArk, OneLogin, JumpCloud, ForgeRock, and Atlassian Identity** are **enterprise IAM platforms**—they provide workforce SSO, governance, and broad application integrations. **Auth0** is **developer-friendly CIAM**—optimized for customer-facing applications. **Casdoor, Keycloak, Zitadel, and Authentik** are **self-hosted IAM platforms**—they provide authentication and SSO, but you own infrastructure and integration work. **Ory** is a **modular ecosystem**—you assemble components based on need. **Janssen** is a **standards-complete federated IAM** with Digital Public Good certification. **Shibboleth** is **federated SSO** for research/education. **Choose based on whether you need managed convenience, developer experience, self-hosted control, or federated identity.**
-
-- **Casdoor is the most feature-complete modern open-source IAM** as of October 2026. It is the **only self-hosted IdP with built-in MCP server and OAuth 2.1 for MCP**—critical for AI-agent authentication . It also includes built-in CAS, LDAP, and RADIUS servers that Keycloak and others require extensions to achieve . **The trade-off**: smaller community than Keycloak, with fewer tutorials and Stack Overflow answers.
-
-- **Keycloak remains the ecosystem leader** with the largest community, most third-party integrations, and Red Hat backing. **The trade-off**: Java overhead, dated UI, and poor user self-service experience—the community increasingly recommends Authentik or Zitadel for modern deployments .
-
-- **Authentik is the community favorite for Keycloak migration**, with a clean UI, user self-service portal, and the most flexible sign-in flow engine among self-hosted IdPs . **Zitadel is the Kubernetes-native choice**—Go-based for low resource usage, with clean multi-tenancy for external users/contractors .
-
-- **Ory is the architectural flexibility champion**—modular Go services (Kratos, Hydra, Keto, Oathkeeper, Polis) that can be adopted individually or combined, with a path to Ory Network if you later want managed deployment . **The trade-off**: more assembly required; enterprise SLAs require commercial licensing.
-
-- **Janssen is the governance and standards choice**—Linux Foundation-governed, Digital Public Good certified, with the most complete standards coverage (OAuth, OIDC, SAML, FIDO2, SCIM, UMA) and low-code Agama orchestration . **The trade-off**: complex deployment; best suited for public sector and large-scale identity infrastructure.
-
-- **Pricing opacity varies.** Microsoft Entra ID is included with M365 plans. Ping Identity publishes tiered pricing for PingOne (Customers from $35K/year; Workforce from $3/user/month) . Okta, CyberArk, OneLogin, JumpCloud (enterprise), ForgeRock, and Beyond Identity require sales contact. Auth0 has a free tier; JumpCloud has a free tier for up to 10 users. **Validate with direct vendor conversations against your user count and feature requirements.**
-
-- Self-hosted open-source solutions require proper infrastructure (databases, Kubernetes for some), security hardening for authentication endpoints, and ongoing maintenance. **IAM systems are the keys to your kingdom**—ensure your deployment includes MFA enforcement, audit logging, and regular security patching before trusting it with production identities.
-
+  The top-level Apache Foundation solution for Identity Governance and Administration (IGA) and provisioning.
+- **Protocols & Features**: Identity lifecycle management, automated identity provisioning and deprovisioning to external systems via ConnId connectors, role and entitlement management, workflow-driven approvals (Flowable engine), and reporting.
+- **Tech Stack & Deployment**: Java, Spring Boot, Apache Wicket UI; enterprise container or application server deployment.
+- **Trade-offs**: Traditional enterprise Java architecture; higher setup complexity compared to lightweight auth proxies.
+- **Best For**: Enterprise organizations needing comprehensive Identity Governance and Administration (IGA) with bi-directional connector provisioning across legacy and cloud applications.
 
 
 ---
 
+## 🏛️ Additional Notable Open-Source Solutions 🧩
 
+- **[Shibboleth Consortium](https://www.shibboleth.net/)** — Open-source web-based SSO and federated authentication protocol suite tailored specifically for higher education, scientific research consortia, and cross-institutional identity federations (InCommon, eduGAIN).
+- **[FreeIPA](https://www.freeipa.org/)** — Integrated security information management solution providing central authentication, authorization, Kerberos KDC, 389 Directory Server (LDAP), DNS, and certificate management for networked Linux/UNIX environments. Often deployed in tandem with Keycloak to provide SSO on top of complete POSIX/directory management.
 
-**Made for identity architects, security teams, and organizations building transparent cloud identity management solutions.**
+---
 
-Let's make Cloud Identity Management more open, data-driven, and passwordless-ready.
+## 💡 Architectural Comparison & Decision Matrix 🧠
+
+Choosing the appropriate identity platform depends on organizational boundaries, hosting autonomy, and compliance obligations:
+
+1. **Enterprise Workforce IAM Platforms** (*Microsoft Entra ID, Okta, Ping Identity, CyberArk, OneLogin, JumpCloud*):
+   - **Focus:** Employee desktop logons, company-wide Single Sign-On (SSO), automated SCIM lifecycle provisioning, corporate directory governance, and SaaS application integration catalogs.
+   - **Trade-off:** Commercial licensing costs, per-seat recurring fees, and potential vendor lock-in.
+
+2. **Developer CIAM Platforms** (*Auth0, SuperTokens, Logto*):
+   - **Focus:** Frictionless login boxes, social sign-ins, passkeys, self-service password reset, and embeddable frontend SDKs for web and mobile consumer applications.
+   - **Trade-off:** Usage-based billing scaling by Monthly Active Users (MAUs).
+
+3. **Modern Self-Hosted IAM Suites** (*Authentik, Casdoor, Zitadel, Keycloak*):
+   - **Focus:** Complete operational control over authentication pipelines, zero per-seat software licensing overhead, and hosting freedom (Kubernetes, bare metal, on-premise air-gapped data centers).
+   - **Differentiators:** **Casdoor** delivers built-in MCP server support for AI agents and legacy protocol support (CAS, LDAP, RADIUS); **Authentik** provides modern UI with intuitive flow engines; **Zitadel** brings cloud-native Go efficiency and multi-tenant isolation; **Keycloak** offers the largest enterprise plugin ecosystem and Red Hat backing.
+
+4. **Headless & Microservice Auth Engines** (*Ory Hydra, Ory Kratos, Dex IdP*):
+   - **Focus:** Sub-millisecond token issuance, microservice authorization pipelines, and total design freedom to build customized branded authentication interfaces.
+   - **Trade-off:** Requires engineering assembly; does not deliver monolithic out-of-the-box user portals.
+
+---
+
+## 📈 Star History 📊
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Cloud-Identity-Management&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Cloud-Identity-Management&type=date&legend=top-left)
+
+---
+
+## 🤝 How to Contribute 🛠️
+
+Contributions are very welcome! If you know of an outstanding open-source identity project or major enterprise identity platform:
+
+1. 🍴 **Fork the repository** to your GitHub account.
+2. 🌿 **Create a new branch** (`git checkout -b feature/add-new-identity-tool`).
+3. ✍️ **Add or edit entries in `README.md`** following the established format (ensure links, badges, star counts, and objective descriptions are verified).
+4. 💾 **Commit your changes** (`git commit -m 'Add ToolName to Open-Source IAM section'`).
+5. 🚀 **Push to your branch** (`git push origin feature/add-new-identity-tool`).
+6. 📬 **Submit a Pull Request** with a concise explanation of your additions.
+
+---
+
+## 💖 Support & Sponsorship ☕
+
+If you found **Awesome Cloud Identity Management** valuable, informative, or helpful in designing your organization's identity architecture, please consider supporting the project:
+
+- 🌟 **Star this repository** on GitHub to help others discover it.
+- 🍴 **Fork the repo** and contribute updates or new tools.
+- 📢 **Share the project** with fellow DevOps, security engineers, and identity architects on LinkedIn, X/Twitter, and tech forums.
+- ☕ **Buy a coffee & sponsor ongoing maintenance:** Support the author directly via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## ⚖️ Disclaimer & Compliance 📜
+
+- 🛡️ **Community-Curated Directory:** This collection is compiled for educational and architectural evaluation purposes. Mention of proprietary SaaS products or open-source repositories does not represent an official endorsement.
+- 🔒 **Security Best Practices:** Identity and Access Management systems handle confidential authentication secrets, private encryption keys, and sensitive personal information. Always enforce multi-factor authentication (MFA), ensure compliance with privacy regulations (GDPR, CCPA, HIPAA), enforce continuous audit logging, and perform regular security audits before deploying any identity provider in production.
+
+---
+
+<div align="center">
+
+**Crafted with ❤️ for cloud architects, security engineers, and open-source identity builders.**  
+*Let's make Cloud Identity Management more secure, transparent, and passwordless.*
+
+</div>
