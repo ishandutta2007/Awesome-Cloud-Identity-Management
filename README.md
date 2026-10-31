@@ -32,79 +32,30 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
 
+The global Identity and Access Management (IAM) and Cloud Identity market is estimated at **.3B – .5B in 2026** (with pure-play cloud IAM accounting for ~.9B – .5B), expanding at a CAGR of 14%–16% driven by Zero Trust mandates, machine identity expansion, and cloud migrations. The market is **moderately fragmented**: while a top-heavy cohort of cloud hyper-scalers and established enterprise giants (Microsoft, Okta, CyberArk) commands major enterprise market share, rapid innovation in specialized sub-domains—such as customer identity (CIAM), phishing-resistant passwordless auth, identity threat detection (ITDR), and non-human identity governance—sustains a vibrant, fragmented long tail of specialized vendors.
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[Microsoft Entra ID](https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-id)**
-
-  **Cloud identity and access management** integrated with Microsoft 365 and Azure. Ranked as the **overall leader** in ISG's 2026 Identity and Access Management Platforms Buyers Guide, with top scores in five categories including Product Experience and Customer Experience . **Pricing**: Included with Microsoft 365 plans; Premium P1/P2 add-ons for advanced governance and identity protection. **Free tier**: Limited free tier available. **Best for**: Microsoft-centric organizations wanting native integration with Teams, Outlook, and Azure resources—**trade-off**: ecosystem lock-in and licensing complexity.
-
-
-
-- **[Okta](https://www.okta.com/)**
-
-  **Enterprise identity platform** with broad application integrations and adaptive MFA. Named a **Leader** in Product Experience in ISG's 2026 Buyers Guide, alongside Microsoft and AWS . **Pricing**: Quote-only; per-user and per-application models. **Free tier**: Developer edition available. **Best for**: large enterprises needing vendor-neutral IAM across a diverse application portfolio—**trade-off**: premium pricing and configuration complexity.
-
-
-
-- **[Ping Identity](https://www.pingidentity.com/)**
-
-  **Identity and access management** for workforce and customer identity, with AI-driven fraud protection (via ForgeRock merger). Rated **Innovative** in ISG's 2026 Buyers Guide . Offers PingOne for Customers (from ~$35K/year) and PingOne for Workforce (from ~$3/user/month, 5,000-user minimum) . **Pricing**: Quote-only; tiered by customer vs. workforce and volume. **Free tier**: None. **Best for**: organizations needing advanced fraud protection and AI-driven access decisions—**trade-off**: pricing not designed for small businesses .
-
-
-
-- **[CyberArk Identity](https://www.cyberark.com/)**
-
-  **Identity security platform** with privileged access management and adaptive authentication. Rated **Exemplary** in ISG's 2026 Buyers Guide . **Pricing**: Quote-only. **Free tier**: None. **Best for**: enterprises prioritizing privileged access security and identity threat detection.
-
-
-
-- **[OneLogin](https://www.onelogin.com/)** (One Identity)
-
-  **Cloud IAM platform** with SSO, MFA, and directory integration. Rated **Exemplary** in ISG's 2026 Buyers Guide . **Pricing**: Quote-only; tiered by users. **Free tier**: Trial available. **Best for**: mid-market organizations wanting straightforward SSO and MFA—**trade-off**: less extensive governance features than Okta or Entra.
-
-
-
-- **[Auth0](https://auth0.com/)** (Okta)
-
-  **Developer-friendly identity platform** for customer-facing applications. **Pricing**: Free tier for small projects; paid plans scale by monthly active users. **Free tier**: Yes, generous for development. **Best for**: developers building applications needing drop-in authentication with social logins, MFA, and RBAC—**trade-off**: customer identity focus, not workforce IAM.
-
-
-
-- **[JumpCloud](https://jumpcloud.com/)**
-
-  **Directory platform** combining identity, access, and device management across cloud and on-premise resources. Rated **Assurance** in ISG's 2026 Buyers Guide, but recognized as **best overall IAM solution for 2026** in eSecurity Planet's evaluation for combining identity, directory, and cross-platform device management . **Pricing**: Tiered per-user pricing; free tier for small teams. **Free tier**: Yes, up to 10 users. **Best for**: IT teams wanting unified directory for identity and device management without Active Directory.
-
-
-
-- **[ForgeRock](https://www.forgerock.com/)** (Ping Identity)
-
-  **Enterprise IAM platform** with AI-driven identity governance and fraud protection, now merged with Ping Identity . **Pricing**: Bundled with Ping Identity offerings. **Free tier**: None. **Best for**: organizations needing advanced identity governance and AI-powered risk assessment—**trade-off**: enterprise pricing and complexity.
-
-
-
-- **[Atlassian Identity](https://www.atlassian.com/)**
-
-  **Native identity management** for Atlassian Cloud products (Jira, Confluence, etc.). **Pricing**: Included with Atlassian subscriptions; Atlassian Guard for advanced security. **Free tier**: Limited. **Best for**: Atlassian customers wanting user provisioning and SSO within the Atlassian ecosystem—**not** a general-purpose IAM platform.
-
-
-
-- **[Beyond Identity](https://www.beyondidentity.com/)**
-
-  **Passwordless identity platform** with device-bound credentials. Rated **Merit** in ISG's 2026 Buyers Guide . **Pricing**: Quote-only. **Free tier**: Developer tier available. **Best for**: organizations eliminating passwords entirely with phishing-resistant authentication.
-
-
+| Platform | Valuation / Company Size | Pricing (Starting Tier) | Free Tier / Trial Limits | Key Capabilities & Best For |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Microsoft Entra ID](https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-id)** | **.1+ Trillion** (Market Cap) | **.00/user/mo** (P1 standalone; also bundled in M365 Business Premium / E3); P2 at .00/user/mo | **Free plan forever** (capped at 50,000 directory objects without custom domain, 300,000 with verified domain; core directory & SSO included, lacks Conditional Access/PIM) | Enterprise directory, SSO, adaptive MFA, Conditional Access, and deep native Microsoft 365 / Azure integration. Best for Microsoft-centric organizations. |
+| **[Atlassian Identity / Guard](https://www.atlassian.com/)** | **~ Billion** (Market Cap) | **.00/user/mo** (Atlassian Guard Standard for 11–250 users; flat /mo for 1–10 users; Guard Premium adds ~/user/mo) | **30-day free trial** (unlimited features across connected Atlassian Cloud sites; standard Guard is free for Cloud Enterprise subscribers) | Centralized identity governance, user provisioning (SCIM), SAML SSO, and data loss prevention across Atlassian Cloud (Jira, Confluence). |
+| **[Okta](https://www.okta.com/)** | **~ Billion** (Market Cap; ~.6B+ ARR) | **.00/user/mo** (Workforce Starter Suite billed annually; ,500 annual contract minimum; higher suites at –/user/mo) | **30-day free trial** (Workforce trial limited to 10 active test users, 1 admin account, capped workflows/integrations; developer account offers 7,500 monthly active users) | Vendor-neutral enterprise cloud identity, pre-built app catalog (7,000+ integrations), adaptive MFA, and lifecycle management. |
+| **[CyberArk Identity](https://www.cyberark.com/)** | **~.6 Billion** (Market Cap; ~+ ARR) | **.00/user/mo** (SSO/MFA starting workforce tier, annual contract with enterprise minimum commitments) | **14-day free trial** (access to interactive cloud sandbox tenant and core identity workflows upon request/lab access) | Identity security platform combining SSO, adaptive multi-factor authentication, and native Privileged Access Management (PAM) threat detection. |
+| **[OneLogin](https://www.onelogin.com/)** *(One Identity)* | **.4 Billion** (Quest Software parent valuation; ~+ ARR) | **.00/user/mo** (Starter plan billed annually; Advanced at /user/mo, Professional at /user/mo) | **30-day free trial** (full access to enterprise directory integration, single sign-on catalog, and smart MFA evaluation) | Cloud IAM with SmartFactor authentication, unified directory integration, and self-service password reset for mid-market and enterprise organizations. |
+| **[Ping Identity](https://www.pingidentity.com/)** | **.8 Billion** (Acquisition valuation by Thoma Bravo; combined with ForgeRock) | **.00/user/mo** (PingOne for Workforce, 5,000-user enterprise contract minimum; PingOne for Customers starts at ~,000/yr) | **30-day free trial** (PingOne cloud platform evaluation sandbox with SSO, MFA, orchestration, and directory capabilities) | Hybrid & multi-cloud enterprise workforce and customer IAM, AI-driven fraud risk engine, and decentralized identity governance. |
+| **[JumpCloud](https://jumpcloud.com/)** | **~.6 Billion** (Private Valuation; ~ ARR) | **.00/user/mo** (Device Management or SSO package billed annually, /mo monthly; Core Device Identity Management at /user/mo) | **30-day free trial** (unrestricted full platform access with all premium features and 24/7 support for evaluation; legacy free tier up to 10 users/devices was grandfathered Feb 2024) | Cloud directory platform unifying cross-OS device management (MDM for Mac, Windows, Linux) with single sign-on, RADIUS, and password management. |
+| **[ForgeRock](https://www.forgerock.com/)** *(Ping Identity)* | **.3 Billion** (Acquisition valuation by Thoma Bravo) | **.00 – .00/user/mo** (Workforce enterprise bundle via Ping Identity; customer IAM tiers scaled by identity volume from ~+/yr) | **30-day free trial** (Ping Identity / ForgeRock unified cloud trial environment with identity orchestration and governance modules) | High-scale digital identity, AI-powered identity governance and administration (IGA), autonomous access, and fine-grained authorization. |
+| **[Beyond Identity](https://www.beyondidentity.com/)** | **.1 Billion** (Series C Unicorn Valuation; ~ ARR) | **.00/user/mo** (Secure Workforce plan; customer-facing passwordless authentication starts at .016/MAU) | **Free plan forever** (Free Passwordless tier for workforce & customer authentication with unlimited users; basic phishing-resistant FIDO2/passkey authentication) | Cryptographic, device-bound passwordless identity eliminating passwords and phishing risks via hardware TPM/Secure Enclave verification. |
+| **[Auth0](https://auth0.com/)** *(Okta)* | Part of **Okta ( Market Cap)**; acquired for **.5 Billion** | **.00/month** (B2C Essentials plan up to 500 MAUs; B2B Professional starts at /mo for 500 MAUs; enterprise custom) | **Free plan forever** (up to 25,000 Monthly Active Users (MAUs), unlimited social connections, custom domain, and basic attack protection) | Developer-first Customer Identity and Access Management (CIAM) platform offering drop-in authentication, universal login, social auth, and user management APIs. |
 
 ## Open-Source GitHub Projects
 
